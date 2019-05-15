@@ -1,9 +1,21 @@
-# Android Forms
+# ExoForm
 
-This library is made for rendering dynamic android forms with rich attributes and many form's layouts.
+The Android form library is made for rendering dynamic android forms with rich attributes and many form's layouts.
 
 ### Implementation / Compile
+Add it in your root build.gradle at the end of repositories:
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.pandeykamlendra42:androidForms:1.01'
+	}
 
 
 ### HOW TO USE?
@@ -58,6 +70,7 @@ Field | Attribute | Description
 
 ![alt text](https://raw.githubusercontent.com/kamlendrabigstep/androidTestDemo/master/screenshots/date_time_field_demo.gif)
 ![alt text](https://github.com/kamlendrabigstep/androidTestDemo/blob/master/screenshots/form_layouts_demo.gif)
+
 
 
 
